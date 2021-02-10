@@ -1,5 +1,6 @@
 
-import collections  
+import collections
+import os
 file_to_read = open("access_log1")
 read_file = file_to_read.readlines()
 list_get_post = []
