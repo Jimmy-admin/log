@@ -8,7 +8,6 @@ list_post = []
 for i in read_file:
 	split_ligne = i.split(" ")
 	list_get_post.append(split_ligne)
-	'''print (list_get_post)'''
 for y in list_get_post:
 	
 	if '"GET' in y:
